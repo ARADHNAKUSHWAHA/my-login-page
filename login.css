@@ -1,0 +1,51 @@
+
+body{
+    background: url(background.jpg);
+    background-size: cover;
+}
+.page{
+    height: 300px;
+    width: 500px;
+    top: 50%;
+    left: 50%;
+    background-image: url(background.jpg);
+    transform: translate(-50%, -50%);
+    position: absolute;
+    border:solid black;
+    border-radius: 30px 30px 30px 30px;
+    box-shadow: 10px 10px  100px yellowgreen;
+
+    
+}
+h2{
+    text-align: center;
+    
+}
+
+
+
+.name{
+    position: absolute;
+    left: 110px;
+    top: 100px;
+    color:black;
+    font-size: 20px;
+
+}
+
+
+button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 10px 25px;
+    cursor: pointer;
+    width: 120px;
+    position: absolute;
+   top: 250px;
+   left: 200px;
+   border-radius: 50px 50px 50px 50px;
+}
+button:hover{
+    background-color:rgb(155, 155, 59) ;
+    color: black;
+}
